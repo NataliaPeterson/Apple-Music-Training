@@ -1,0 +1,134 @@
+body {
+  font-family: "Helvetica Neue", Arial, sans-serif;
+  text-align: center;
+}
+
+h1 {
+  padding: 13% 0 5%;
+}
+
+h2 {
+  color: white;
+  background: linear-gradient(-45deg, #19deea, #9c4feb 33%, #d152b7 66%, #fe7142);
+  padding: 1%;
+  opacity: 0.6;
+}
+
+h3 {
+  color: white;
+  background: linear-gradient(-45deg, #19deea, #9c4feb 33%, #d152b7 66%, #fe7142);
+  padding: 25%;
+}
+a:visited h3{
+  opacity: 0.2;
+  color:#763bb3;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+a:hover h3{
+  opacity: 0.8;
+}
+
+h4 {
+  padding: 3%;
+}
+
+h5 {
+  text-align: left;
+  margin-top: 13%;
+}
+
+p, ul {
+  text-align: justify;
+  text-indent: 20px;
+  line-height: 1.8;
+  width: 90%;
+  padding-left: 8%;
+  margin-bottom: 5px;
+}
+
+.fa-chevron-right {
+  position: absolute;
+  top: 90%;
+  left: 90%;
+}
+
+.fa-chevron-left {
+  position: absolute;
+  top: 90%;
+  left: 87%;
+}
+
+/*Menu*/
+.menu {
+  padding-top: 80px;
+}
+
+.menu-left {
+  padding-left: 300px;
+  padding-right: 10px;
+}
+
+.menu-right {
+  padding-right: 300px;
+  padding-left: 10px;
+}
+
+.col-6 {
+  position: relative;
+  padding-top: 16px;
+}
+
+/*Overview1*/
+.devices {
+  max-width: 80%;
+  height: auto;
+  padding-top: 1.5rem;
+}
+
+/*Overview2*/
+.buttons {
+  float: left;
+  margin-left: 11%;
+  margin-right: 3%;
+  width: 8%;
+}
+
+.button-info {
+  display: none;
+}
+
+.arrow-right {
+  font-size: 1.5rem;
+  position: absolute;
+  bottom: 2.5rem;
+  right:32rem;
+}
+
+/* .coords:hover {
+
+} */
+
+/*Overview2,3*/
+.phone-screen {
+  width: auto;
+  max-height: 32rem;
+}
+
+/*Overview4*/
+.change-settings {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.profile-pic {
+  width: 24px;
+  height: auto;
+  display: inline;
+  border: 0;
+  box-shadow: none;
+  margin-bottom: 10px;
+}

@@ -1,0 +1,326 @@
+body {
+  font-family: "Helvetica Neue", Arial, sans-serif;
+  text-align: center;
+  margin-bottom: 70px;
+}
+
+h1 {
+  padding: 13% 0 5%;
+}
+
+h2 {
+  color: white;
+  background: linear-gradient(-45deg, #19deea, #9c4feb 33%, #d152b7 66%, #fe7142);
+  padding: 1%;
+  opacity: 0.6;
+  margin-bottom: 0;
+}
+
+h3 {
+  color: white;
+  background: linear-gradient(-45deg, #19deea, #9c4feb 33%, #d152b7 66%, #fe7142);
+  padding: 25%;
+}
+
+h4 {
+  padding: 3%;
+}
+
+h5 {
+  text-align: left;
+  margin-top: 13%;
+}
+
+p, ul {
+  text-align: justify;
+  text-indent: 20px;
+  line-height: 1.8;
+  width: 90%;
+  padding-left: 8%;
+  margin-bottom: 5px;
+}
+
+a:visited h3 {
+  /* background-color: linear-gradient(-45deg, #89e3f2, #c59aef 33%, #e89ec5 66%, #fdaa95); */
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+a:hover h3 {
+  opacity: 0.8;
+}
+
+footer {
+  height: 50px;
+  background-color: black;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+  left: 0;
+  z-index: 2;
+}
+
+.fa-th-large, .menu-text, .apple-logo, .fa-chevron-right, .fa-chevron-left, .next, .back {
+  position: absolute;
+}
+
+.fa-th-large, .menu-text, .next a, .back a {
+  color: white;
+}
+
+.fa-th-large {
+  font-size: 2rem;
+  left: 1rem;
+  top: 0.2rem;
+}
+
+.menu-text {
+  font-size: 0.5rem;
+  left: 0rem;
+  top: 2rem;
+  padding-left: 0;
+}
+
+.apple-logo {
+  width: 2rem;
+  top: 0.4rem;
+}
+
+.fa-chevron-right, .fa-chevron-left {
+  right: 0rem;
+  top: 0.2rem;
+}
+
+.next {
+  right: 4rem;
+}
+
+.back {
+  right: 8rem;
+}
+
+.next a, .back a {
+  font-size: 9px;
+  margin-right: 7px;
+}
+
+/*Menu*/
+.menu {
+  padding-top: 80px;
+}
+
+.menu-left {
+  padding-left: 300px;
+  padding-right: 10px;
+}
+
+.menu-right {
+  padding-right: 300px;
+  padding-left: 10px;
+}
+
+.col-6 {
+  position: relative;
+  padding-top: 16px;
+}
+
+/*Overview1*/
+.devices {
+  max-width: 80%;
+  height: auto;
+  padding-top: 1.5rem;
+}
+
+/*Overview2*/
+.buttons {
+  float: left;
+  margin-left: 11%;
+  margin-right: 3%;
+  width: 8%;
+}
+
+.button-info {
+  display: none;
+}
+
+.arrow-right {
+  font-size: 1.5rem;
+  position: absolute;
+  top: 88%;
+  right: 80%;
+}
+
+/* .coords:hover {
+
+} */
+/*Overview2,3*/
+.phone-screen {
+  width: auto;
+  max-height: 32rem;
+}
+
+/*Overview4*/
+.change-settings {
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 0;
+}
+
+.profile-pic {
+  width: 24px;
+  height: auto;
+  display: inline;
+  border: 0;
+  box-shadow: none;
+  margin-bottom: 10px;
+}
+
+/*Discover*/
+.bubbles {
+  width: 110%;
+}
+
+.discover-list {
+  visibility: hidden;
+  margin-left: 10rem;
+}
+
+.discover-list li {
+  background-size: 30px;
+  background-image: url("../images/logo-small.png");
+  background-repeat: no-repeat;
+  list-style-type: none;
+  text-indent: 35px;
+}
+
+.discover-col {
+  margin-top: 5rem;
+}
+
+/*Listen*/
+.parent-div {
+  padding-top: 0;
+  right: 20rem;
+}
+
+.parent-listen {
+  position: absolute;
+  margin-top: 3rem;
+  z-index: 1;
+  left: 7.45rem;
+
+}
+
+.listen-screen {
+  position: absolute;
+  margin-top: 4.47rem;
+  width: 21.4rem;
+  left: 11.5rem;
+}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* The dots/bullets/indicators */
+.dots {
+  padding-top: 36rem;
+  position: relative;
+  left: 20rem;
+}
+
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {
+    opacity: .4
+  }
+
+  to {
+    opacity: 1
+  }
+}
+
+@keyframes fade {
+  from {
+    opacity: .4
+  }
+
+  to {
+    opacity: 1
+  }
+}
+
+/*Pricing*/
+.pricing-header-text {
+  text-align: center;
+  margin-top: 0;
+  padding: 0;
+}
+
+.pricing-background {
+  width: 65%;
+  background: linear-gradient(to right, #c59aef, #89e3f2);
+}
+
+.td-text {
+  text-align: left;
+  width: 50%;
+}
+
+td {
+  text-align: center;
+}
+
+/*Quiz*/
+#results {
+  padding: 16px;
+}
+
+#quiz {
+  padding-top: 80px;
+  padding-bottom: 16px;
+}
+
+.answers {
+  padding-bottom: 20px;
+}
+
+.question {
+  padding-bottom: 6px;
+}
+
+.answers input[type=radio] {
+  margin-left: 16px;
+}

@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>Apple Music Training</title>
+  <!-- CSS Stylesheets -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css">
+
+  <!-- Bootstrap Scripts -->
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <h2>Overview</h2>
+  <div class="row">
+    <div class="col-6">
+      <h4>Explore the Apple Music app</h4>
+      <p>Click the tabs at the bottom of the iPhone screen to find out more!</p>
+      <div id="library" class="button-info">
+        <img class="buttons library-pic" src="images/library.jpg" alt="Library">
+        <h5>Library</h5>
+        <br>
+        <br>
+        <p>Find all of the music that you've added from Apple Music and music on your other devices. See music that you purchased from the iTunes Store, and songs that you imported from CDs and other services. You can also find music that's downloaded to your device so you can listen to it offline.</p>
+      </div>
+      <div id="for-you" class="button-info">
+        <img class="buttons for-you-pic" src="images/for-you.jpg" alt="For You">
+        <h5>For You</h5>
+        <br>
+        <br>
+        <p>If you subscribe to Apple Music, you can see music recommendations and playlists based on your musical tastes. You can also see music that you recently played and check out what your friends are listening to. And when you want to relive the top songs, artists, and albums that you listened to over the past year, check out Apple Music Replay.</p>
+      </div>
+      <div id="browse" class="button-info">
+        <img class="buttons browse-pic" src="images/browse.jpg" alt="Browse">
+        <h5>Browse</h5>
+        <br>
+        <br>
+        <p>If you subscribe to Apple Music, you'll see what's new in music and what songs and videos are topping the charts. You can also watch music videos and find music video playlists. And you can add and download any of this content to your Library. If you don't subscribe to Apple Music, use the iTunes Store app to buy and download music instead.</p>
+      </div>
+      <div id="radio" class="button-info">
+        <img class="buttons radio-pic" src="images/radio.jpg" alt="Radio">
+        <h5>Radio</h5>
+        <br>
+        <br>
+        <p>Listen to Beats1 to hear a live global broadcast hosted by the biggest names in music. Or tune in to local radio stations from all over the world. Learn more about Radio in Apple Music.</p>
+      </div>
+      <div id="search" class="button-info">
+        <img class="buttons search-pic" src="images/search.jpg" alt="Search">
+        <h5>Search</h5>
+        <br>
+        <br>
+        <p>Use Search to find songs, albums, artists, playlists, lyrics, and more. Quickly switch between searching your own library and the Apple Music catalog. You’ll see recent searches too, along with what’s trending.</p>
+      </div>
+
+    </div>
+    <div class="col-6">
+      <i class="fas arrow-right">	&#xf061;</i>
+      <img class="phone-screen" src="images/phone-screen.jpg" alt="For You screen" usemap="#phone-screen-buttons">
+      <map name="phone-screen-buttons">
+        <area class="library coords" shape="rect" coords="23,448,55,482" alt="Library">
+        <area class="for-you coords" shape="rect" coords="66,448,105,482" alt="For You">
+        <area class="browse coords" shape="rect" coords="110,448,149,482" alt="Browse">
+        <area class="radio coords" shape="rect" coords="150,448,193,482" alt="Radio">
+        <area class="search coords" shape="rect" coords="196,448,236,482" alt="Search">
+      </map>
+    </div>
+  </div>
+  </body>
+<footer>
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-4">
+        <a href="menu.html"><i class="fas fa-th-large"></i></a>
+        <p class="menu-text">Menu</p>
+      </div>
+      <div class="col-4">
+        <img class="apple-logo" src="images/apple-logo.png" alt="Apple Logo">
+      </div>
+      <div class="col-4">
+        <div class="next">
+          <a href="overview3.html"><i class="fas fa-chevron-right btn btn-outline-light"></i><br>Next</a>
+        </div>
+        <div class="back">
+          <a href="overview1.html"><i class="fas fa-chevron-left btn btn-outline-light"></i><br>Back</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jQuery-rwdImageMaps/1.6/jquery.rwdImageMaps.js"></script>
+<script src="index.js" charset="utf-8"></script>
+</html>
